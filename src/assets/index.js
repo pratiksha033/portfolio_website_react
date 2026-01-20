@@ -29,6 +29,14 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import aicareer from "./aicareer.png";
+import jobportal from "./jobportal.png";
+import quite from "./quite.png";
+import cpu from "./cpu.png";
+
+
+
+
 
 export {
   logo,
@@ -59,4 +67,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  quite,
+  aicareer,
+  jobportal,
+  cpu,
 };

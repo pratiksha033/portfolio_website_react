@@ -48,18 +48,10 @@ const Tech = () => {
     <span className="text-white text-lg font-medium">LinkedIn</span>
   </a>
 
-  <a
-    href="https://twitter.com/your-twitter-username"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex items-center space-x-3 bg-gray-800 hover:bg-blue-500 px-4 py-3 rounded-lg transition duration-300"
-  >
-    < FaHackerrank className="text-white text-2xl" />
-    <span className="text-white text-lg font-medium">hackerrank</span>
-  </a>
+ 
 
   <a
-    href="https://twitter.com/your-twitter-username"
+    href="https://codolio.com/profile/pratiksha"
     target="_blank"
     rel="noopener noreferrer"
     className="flex items-center space-x-3 bg-gray-800 hover:bg-blue-500 px-4 py-3 rounded-lg transition duration-300"
@@ -69,7 +61,7 @@ const Tech = () => {
   </a>
 
   <a
-    href="https://twitter.com/your-twitter-username"
+    href="mailto:pratikshaparihar679@gmail.com"
     target="_blank"
     rel="noopener noreferrer"
     className="flex items-center space-x-3 bg-gray-800 hover:bg-blue-500 px-4 py-3 rounded-lg transition duration-300"
@@ -79,7 +71,7 @@ const Tech = () => {
   </a>
 
   <a
-    href="https://twitter.com/your-twitter-username"
+    href="https://leetcode.com/u/pratikshaparihar488/"
     target="_blank"
     rel="noopener noreferrer"
     className="flex items-center space-x-3 bg-gray-800 hover:bg-blue-500 px-4 py-3 rounded-lg transition duration-300"

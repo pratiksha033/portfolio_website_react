@@ -49,8 +49,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Focused and enthusiastic developer with a keen interest in software development and artificial intelligence. By comprehensive exposure to the underlying concepts and applying them vividly to various projects, my love for these domains came into being. I am a passionate individual who thrives to build and apply algorithms to solve real-world industry problems.z
-      </motion.p>
+I’m a full-stack developer with hands-on experience building web applications using the MERN stack. I mainly work on backend development, including designing REST APIs, handling authentication, managing databases, and implementing server-side logic, while also integrating these features with clean and responsive React interfaces.
+
+I enjoy solving real-world problems through code and focus on writing clean, maintainable, and scalable solutions. Along with JavaScript-based development, I also have working knowledge of Python and am comfortable learning new technologies when required.
+
+I’m continuously improving my skills by building projects, exploring best practices, and gaining practical experience in real-world development workflows.      </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

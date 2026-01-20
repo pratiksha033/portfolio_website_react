@@ -21,6 +21,10 @@ import {
     shopify,
     carrent,
     jobit,
+    quite,
+    aicareer,
+    jobportal,
+    cpu,
     
     threejs,
   } from "../assets";
@@ -42,21 +46,22 @@ import {
   
   const services = [
     {
-      title: "Web Development",
+      title: "Web Developer",
       icon: web,
     },
     {
-      title: "c++ Language",
+      title: "Frontend developer",
       icon: mobile,
     },
     {
-      title: "SQL",
+      title: "Backend developer",
       icon: backend,
     },
     {
-      title: "Data Structures and Algorithms",
+      title: "Python backend developer",
       icon: creator,
     },
+   
   ];
   
   const technologies = [
@@ -116,57 +121,39 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Web Developer",
+      company_name: "Craft Your Careers",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jan 2025 - Mar 2025",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked on a full-stack MERN-based e-commerce application from scratch.",
+
+"Developed backend APIs and implemented authentication features.",
+
+"Integrated frontend components with server-side logic.",
+
+"Gained experience in building complete application flows and writing clean code.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Full Stack Developer",
+      company_name: "Drone Sangam LLP",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "May 2025 - Aug 2025",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Contributed to a B2B SaaS platform as part of the Founder’s Office team.",
+
+"Built and improved backend features and REST APIs.",
+
+"Integrated frontend components using React for real-time use cases.",
+
+"Worked on interactive map-based features to improve user experience.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
+    
   ];
   
   const testimonials = [
@@ -215,29 +202,114 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: cpu,
       source_code_link: "https://github.com/pratiksha033/CPU-Scheduling",
     },
     {
-      name: "Plantura- An Agricultural Website",
+      name: "Job Seeking Web Application",
       description:
-        "Led the development of plantura, an agricultural portal serving farmers with an intuitive UI built using HTML, CSS, and JavaScript. Designed and implemented the backend using Java and SQL, ensuring efficient data management with high database uptime. Integrated personalized dashboards and authentication, enhancing accessibility for individual farmers. 🚀🌱",
+        "A full-stack job-seeking web application built with the MERN stack. It features role-based access for job seekers and recruiters, secure JWT authentication, job posting and application modules, dynamic search and filtering, and Cloudinary integration for profile uploads. The UI is fully responsive and styled using Tailwind CSS.",
       tags: [
         {
-          name: "HTML",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Node.js",
           color: "green-text-gradient",
         },
         {
-          name: "javascript",
+          name: "Express.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDB",
           color: "pink-text-gradient",
         },
       ],
+      image: jobportal,
+      source_code_link: "https://github.com/pratiksha033/job-seeking",
+    },
+    {
+      name: "AI Career Coach",
+      description:
+        "An intelligent, full-stack web application that offers personalized career guidance using AI. This platform helps users build resumes, craft cover letters, practice interviews, and gain industry insights — all powered by modern web technologies.",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Prisma ORM",
+          color: "red-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: aicareer,
+      source_code_link: "https://github.com/pratiksha033/AI-Career-Coach",
+    },
+
+    {
+      name: "Quiet Hours Scheduler",
+      description:
+        "A full-stack web application that allows authenticated users to schedule silent-study time blocks and receive automated email reminders 10 minutes before each block begins.This project demonstrates a modern web development stack, including a Next.js frontend, a complete Supabase backend (database, authentication, storage, edge functions) and integration with a third-party email service (Resend).",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Supabase Auth",
+          color: "red-text-gradient",
+        },
+        {
+          name: "SupabasePostgres",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: quite,
+      source_code_link: "https://github.com/pratiksha033/Quite_hours_scheduler",
+    },
+
+    {
+      name: "Multiverse AI- Unified LLM Interface",
+      description:
+        "Multiverse AI is a cutting-edge platform that unifies access to multiple Large Language Models (LLMs) into one seamless interface. Instead of juggling between OpenAI GPT, Google Gemini, and Anthropic Claude, users can submit a single query and instantly receive responses from all providers — all in one place.This project is designed to eliminate context switching, streamline workflows, and boost productivity for developers, researchers, and AI enthusiasts.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS / ShadCN / Material UI",
+          color: "red-text-gradient",
+        },
+        {
+          name: "Google Gemini, OpenAI GPT, Anthropic Claude",
+          color: "orange-text-gradient",
+        },
+      ],
       image: jobit,
-      source_code_link: "https://github.com/pratiksha033/agriculture",
+      source_code_link: "https://github.com/pratiksha033/MultiverseAI--Unified-LLM-interfaces",
     },
     
   ];
